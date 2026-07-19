@@ -139,59 +139,28 @@
   <section class="collections section" id="collections">
     <div class="container">
       <div class="section-header">
-        <p class="section-tag">Handmade Collections</p>
-        <h2 class="section-title">Shop Our <em>Favourites</em></h2>
-        <p class="section-subtitle">Each piece tells its own story. Browse our most-loved creations below.</p>
+        <p class="section-tag">Handmade Catalog</p>
+        <h2 class="section-title">Shop Our <em>Creations</em></h2>
+        <p class="section-subtitle">Exquisite crochet treasures handcrafted with love. Click any product to order directly via WhatsApp!</p>
       </div>
-      <div class="collection-grid">
-        <div class="collection-card" id="card1">
-          <div class="card-image-wrap">
-            <img src="assets/hero.png" alt="Crochet bags collection" class="card-img" />
-            <div class="card-overlay"><a href="https://www.instagram.com/crochet_hook_and_charm" target="_blank" class="card-btn">View Collection</a></div>
-            <div class="card-tag">Bestseller</div>
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Crochet Bags &amp; Totes</h3>
-            <p class="card-desc">Stylish handmade bags in vibrant patterns — perfect for everyday use or gifting.</p>
-            <div class="card-footer">
-              <span class="card-price">Custom Pricing</span>
-              <a href="https://www.instagram.com/crochet_hook_and_charm" target="_blank" class="card-link">Order via DM →</a>
-            </div>
-          </div>
+
+      <!-- Catalog Filters and Search -->
+      <div class="catalog-controls">
+        <div class="search-bar-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="catalogSearch" placeholder="Search products..." />
         </div>
-        <div class="collection-card" id="card2">
-          <div class="card-image-wrap">
-            <img src="assets/product2.png" alt="Crochet accessories" class="card-img" />
-            <div class="card-overlay"><a href="https://www.instagram.com/crochet_hook_and_charm" target="_blank" class="card-btn">View Collection</a></div>
-            <div class="card-tag">Popular</div>
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Accessories &amp; Keychains</h3>
-            <p class="card-desc">Adorable keychains, hair clips, coin purses and more — tiny treasures handmade with care.</p>
-            <div class="card-footer">
-              <span class="card-price">Custom Pricing</span>
-              <a href="https://www.instagram.com/crochet_hook_and_charm" target="_blank" class="card-link">Order via DM →</a>
-            </div>
-          </div>
-        </div>
-        <div class="collection-card" id="card3">
-          <div class="card-image-wrap">
-            <img src="assets/product3.png" alt="Crochet home decor gifts" class="card-img" />
-            <div class="card-overlay"><a href="https://www.instagram.com/crochet_hook_and_charm" target="_blank" class="card-btn">View Collection</a></div>
-            <div class="card-tag">New</div>
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Home Décor &amp; Gifts</h3>
-            <p class="card-desc">Crochet baskets, plant holders, plushies and coasters that bring warmth to any space.</p>
-            <div class="card-footer">
-              <span class="card-price">Custom Pricing</span>
-              <a href="https://www.instagram.com/crochet_hook_and_charm" target="_blank" class="card-link">Order via DM →</a>
-            </div>
-          </div>
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-category="all">All Items</button>
+          <button class="filter-tab" data-category="bouquets">Bouquets</button>
+          <button class="filter-tab" data-category="cases">Phone Cases</button>
+          <button class="filter-tab" data-category="keychains">Keychains</button>
+          <button class="filter-tab" data-category="accessories">Accessories</button>
         </div>
       </div>
-      <div class="collections-cta">
-        <a href="https://www.instagram.com/crochet_hook_and_charm" target="_blank" class="btn btn-primary btn-large" id="collectionsCta">See All on Instagram</a>
+
+      <div class="collection-grid" id="catalogGrid">
+        <!-- Rendered dynamically by script.js -->
       </div>
     </div>
   </section>
